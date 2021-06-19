@@ -7,7 +7,7 @@ require("connect_db.php");
 	
 	if($nbre==1){
 				
-			 echo '<script>window.location.replace("http://www.w3schools.com");</script>';
+			echo '<script>window.location.href = "../page2.html";</script>';
 	
 	}
 	else{
